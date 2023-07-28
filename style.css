@@ -10,11 +10,15 @@ body {
   text-align: center;
   font-family: 'Grandstander', cursive;
   background-color: var(--pink1);
+  background: radial-gradient(#ffe5fd, #ff0fbf);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
-  margin-top: 4vh;
-  font-size: 4rem;
+  margin-top: 6vh;
+  margin-bottom: 1vh;
+  font-size: 5rem;
   color: var(--pink2);
 
   text-shadow: 2px 2px 0 var(--pink3), 2px -2px 0 var(--pink3), -2px 2px 0 var(--pink3), -2px -2px 0 var(--pink3), 2px 0px 0 var(--pink3), 0px 2px 0 var(--pink3), -2px 0px 0 var(--pink3), 0px -2px 0 var(--pink3);
@@ -23,10 +27,13 @@ h1 {
 
 #michael-cera-image {
   height: 60vh;
+  border-radius: 10px;
+  transition: opacity 0.5s ease-in-out;
 }
 
 #generate-btn {
-  margin-top: 2vh;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 
   background-color: white;
   border: 0;
@@ -40,4 +47,13 @@ h1 {
 
   padding: 15px 32px;
   cursor: pointer;
+
+  width: 12em;
+  height: auto;
+  transition: 0.3s;
+
+}
+
+#generate-btn:hover {
+  transform: scale(1.2);
 }
