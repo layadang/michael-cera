@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300;900&display=swap');
+
+:root {
+  --pink1: #ff8fdb;
+  --pink2: #fd1cea;
+  --pink3: #ffe5fd;
+}
+
+body {
+  text-align: center;
+  font-family: 'Grandstander', cursive;
+  background-color: var(--pink1);
+}
+
+h1 {
+  margin-top: 4vh;
+  font-size: 4rem;
+  color: var(--pink2);
+
+  text-shadow: 2px 2px 0 var(--pink3), 2px -2px 0 var(--pink3), -2px 2px 0 var(--pink3), -2px -2px 0 var(--pink3), 2px 0px 0 var(--pink3), 0px 2px 0 var(--pink3), -2px 0px 0 var(--pink3), 0px -2px 0 var(--pink3);
+
+}
+
+#michael-cera-image {
+  height: 60vh;
+}
+
+#generate-btn {
+  margin-top: 2vh;
+
+  background-color: white;
+  border: 0;
+  border-radius: 15px;
+  box-shadow: #ffccec 0px 0px 15px 5px;
+
+  font-family: 'Grandstander', cursive;
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--pink2);
+
+  padding: 15px 32px;
+  cursor: pointer;
+}
